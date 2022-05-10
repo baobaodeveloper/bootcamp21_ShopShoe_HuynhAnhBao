@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-400;
+  }
+  .page-container {
+    width: 1280px;
+    @apply mx-auto;
+  }
+}
